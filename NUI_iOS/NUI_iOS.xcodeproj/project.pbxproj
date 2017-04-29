@@ -150,6 +150,7 @@
 		DB4490111EB43E4000EA75CB /* Switchboard.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5E1EB43B3300EA75CB /* Switchboard.NUI.nss */; };
 		DB4490191EB4418000EA75CB /* NUIParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4490181EB4418000EA75CB /* NUIParse.framework */; };
 		DB44901B1EB442A700EA75CB /* NUI_iOS.pch in Headers */ = {isa = PBXBuildFile; fileRef = DB44901A1EB442A700EA75CB /* NUI_iOS.pch */; };
+		DB44901D1EB4488800EA75CB /* NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB44901C1EB4488800EA75CB /* NUI.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -298,6 +299,7 @@
 		DB4490161EB43E4000EA75CB /* NUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB4490181EB4418000EA75CB /* NUIParse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NUIParse.framework; path = Carthage/Build/iOS/NUIParse.framework; sourceTree = "<group>"; };
 		DB44901A1EB442A700EA75CB /* NUI_iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUI_iOS.pch; sourceTree = "<group>"; };
+		DB44901C1EB4488800EA75CB /* NUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NUI.h; path = ../../Demo/NUI/NUI.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +334,7 @@
 		DB448DF11EB43B1C00EA75CB /* NUI_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				DB44901C1EB4488800EA75CB /* NUI.h */,
 				DB448DFA1EB43B3300EA75CB /* Core */,
 				DB448E541EB43B3300EA75CB /* NUIStyle.nss */,
 				DB448E551EB43B3300EA75CB /* Resources */,
@@ -609,6 +612,7 @@
 				DB4490001EB43E4000EA75CB /* UIProgressView+NUI.h in Headers */,
 				DB4490011EB43E4000EA75CB /* NUIFileMonitor.h in Headers */,
 				DB4490021EB43E4000EA75CB /* UISlider+NUI.h in Headers */,
+				DB44901D1EB4488800EA75CB /* NUI.h in Headers */,
 				DB4490031EB43E4000EA75CB /* NUISwitchRenderer.h in Headers */,
 				DB4490041EB43E4000EA75CB /* NUIActivityIndicatorRenderer.h in Headers */,
 				DB4490051EB43E4000EA75CB /* UIActivityIndicatorView+NUI.h in Headers */,
