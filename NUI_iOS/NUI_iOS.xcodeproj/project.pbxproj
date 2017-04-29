@@ -110,7 +110,6 @@
 		DB448FE81EB43E4000EA75CB /* NUIBarButtonItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E281EB43B3300EA75CB /* NUIBarButtonItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB448FE91EB43E4000EA75CB /* NUIDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E111EB43B3300EA75CB /* NUIDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB448FEA1EB43E4000EA75CB /* NUIMediaBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E131EB43B3300EA75CB /* NUIMediaBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB448FEB1EB43E4000EA75CB /* NUI_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB448FEC1EB43E4000EA75CB /* NUIToolbarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4E1EB43B3300EA75CB /* NUIToolbarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB448FED1EB43E4000EA75CB /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E081EB43B3300EA75CB /* NUIStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB448FEE1EB43E4000EA75CB /* NUITextViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4C1EB43B3300EA75CB /* NUITextViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -150,11 +149,10 @@
 		DB4490111EB43E4000EA75CB /* Switchboard.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5E1EB43B3300EA75CB /* Switchboard.NUI.nss */; };
 		DB4490191EB4418000EA75CB /* NUIParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4490181EB4418000EA75CB /* NUIParse.framework */; };
 		DB44901B1EB442A700EA75CB /* NUI_iOS.pch in Headers */ = {isa = PBXBuildFile; fileRef = DB44901A1EB442A700EA75CB /* NUI_iOS.pch */; };
-		DB44901D1EB4488800EA75CB /* NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB44901C1EB4488800EA75CB /* NUI.h */; };
+		DB44901D1EB4488800EA75CB /* NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB44901C1EB4488800EA75CB /* NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUI_iOS.h; sourceTree = "<group>"; };
 		DB448DF31EB43B1C00EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB448DFB1EB43B3300EA75CB /* NUIAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIAppearance.h; sourceTree = "<group>"; };
 		DB448DFC1EB43B3300EA75CB /* NUIAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NUIAppearance.m; sourceTree = "<group>"; };
@@ -340,7 +338,6 @@
 				DB448E551EB43B3300EA75CB /* Resources */,
 				DB448E571EB43B3300EA75CB /* Themes */,
 				DB448E5F1EB43B3300EA75CB /* UI */,
-				DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */,
 				DB448DF31EB43B1C00EA75CB /* Info.plist */,
 				DB44901A1EB442A700EA75CB /* NUI_iOS.pch */,
 			);
@@ -587,7 +584,6 @@
 				DB448FE81EB43E4000EA75CB /* NUIBarButtonItemRenderer.h in Headers */,
 				DB448FE91EB43E4000EA75CB /* NUIDefinition.h in Headers */,
 				DB448FEA1EB43E4000EA75CB /* NUIMediaBlock.h in Headers */,
-				DB448FEB1EB43E4000EA75CB /* NUI_iOS.h in Headers */,
 				DB448FEC1EB43E4000EA75CB /* NUIToolbarRenderer.h in Headers */,
 				DB448FED1EB43E4000EA75CB /* NUIStyleParser.h in Headers */,
 				DB448FEE1EB43E4000EA75CB /* NUITextViewRenderer.h in Headers */,
@@ -612,10 +608,10 @@
 				DB4490001EB43E4000EA75CB /* UIProgressView+NUI.h in Headers */,
 				DB4490011EB43E4000EA75CB /* NUIFileMonitor.h in Headers */,
 				DB4490021EB43E4000EA75CB /* UISlider+NUI.h in Headers */,
-				DB44901D1EB4488800EA75CB /* NUI.h in Headers */,
 				DB4490031EB43E4000EA75CB /* NUISwitchRenderer.h in Headers */,
 				DB4490041EB43E4000EA75CB /* NUIActivityIndicatorRenderer.h in Headers */,
 				DB4490051EB43E4000EA75CB /* UIActivityIndicatorView+NUI.h in Headers */,
+				DB44901D1EB4488800EA75CB /* NUI.h in Headers */,
 				DB4490061EB43E4000EA75CB /* NUIStyleSheet.h in Headers */,
 				DB4490071EB43E4000EA75CB /* NUIAppearance.h in Headers */,
 			);
