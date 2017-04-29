@@ -7,151 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB448DF41EB43B1C00EA75CB /* NUI_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB448E8C1EB43B3300EA75CB /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DFB1EB43B3300EA75CB /* NUIAppearance.h */; };
-		DB448E8D1EB43B3300EA75CB /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448DFC1EB43B3300EA75CB /* NUIAppearance.m */; };
-		DB448E8E1EB43B3300EA75CB /* NUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DFD1EB43B3300EA75CB /* NUIConstants.h */; };
-		DB448E8F1EB43B3300EA75CB /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DFE1EB43B3300EA75CB /* NUIConverter.h */; };
-		DB448E901EB43B3300EA75CB /* NUIConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448DFF1EB43B3300EA75CB /* NUIConverter.m */; };
-		DB448E911EB43B3300EA75CB /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E001EB43B3300EA75CB /* NUIFileMonitor.h */; };
-		DB448E921EB43B3300EA75CB /* NUIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E011EB43B3300EA75CB /* NUIFileMonitor.m */; };
-		DB448E931EB43B3300EA75CB /* NUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E021EB43B3300EA75CB /* NUIGraphics.h */; };
-		DB448E941EB43B3300EA75CB /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E031EB43B3300EA75CB /* NUIGraphics.m */; };
-		DB448E951EB43B3300EA75CB /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E041EB43B3300EA75CB /* NUIRenderer.h */; };
-		DB448E961EB43B3300EA75CB /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E051EB43B3300EA75CB /* NUIRenderer.m */; };
-		DB448E971EB43B3300EA75CB /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E061EB43B3300EA75CB /* NUISettings.h */; };
-		DB448E981EB43B3300EA75CB /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E071EB43B3300EA75CB /* NUISettings.m */; };
-		DB448E991EB43B3300EA75CB /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E081EB43B3300EA75CB /* NUIStyleParser.h */; };
-		DB448E9A1EB43B3300EA75CB /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E091EB43B3300EA75CB /* NUIStyleParser.m */; };
-		DB448E9B1EB43B3300EA75CB /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E0A1EB43B3300EA75CB /* NUISwizzler.h */; };
-		DB448E9C1EB43B3300EA75CB /* NUISwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E0B1EB43B3300EA75CB /* NUISwizzler.m */; };
-		DB448E9D1EB43B3300EA75CB /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E0C1EB43B3300EA75CB /* NUIUtilities.h */; };
-		DB448E9E1EB43B3300EA75CB /* NUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E0D1EB43B3300EA75CB /* NUIUtilities.m */; };
-		DB448E9F1EB43B3300EA75CB /* NUIDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E0F1EB43B3300EA75CB /* NUIDeclaration.h */; };
-		DB448EA01EB43B3300EA75CB /* NUIDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E101EB43B3300EA75CB /* NUIDeclaration.m */; };
-		DB448EA11EB43B3300EA75CB /* NUIDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E111EB43B3300EA75CB /* NUIDefinition.h */; };
-		DB448EA21EB43B3300EA75CB /* NUIDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E121EB43B3300EA75CB /* NUIDefinition.m */; };
-		DB448EA31EB43B3300EA75CB /* NUIMediaBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E131EB43B3300EA75CB /* NUIMediaBlock.h */; };
-		DB448EA41EB43B3300EA75CB /* NUIMediaBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E141EB43B3300EA75CB /* NUIMediaBlock.m */; };
-		DB448EA51EB43B3300EA75CB /* NUIMediaOptionSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E151EB43B3300EA75CB /* NUIMediaOptionSet.h */; };
-		DB448EA61EB43B3300EA75CB /* NUIMediaOptionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E161EB43B3300EA75CB /* NUIMediaOptionSet.m */; };
-		DB448EA71EB43B3300EA75CB /* NUIParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E171EB43B3300EA75CB /* NUIParserDelegate.h */; };
-		DB448EA81EB43B3300EA75CB /* NUIParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E181EB43B3300EA75CB /* NUIParserDelegate.m */; };
-		DB448EA91EB43B3300EA75CB /* NUIRuleSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E191EB43B3300EA75CB /* NUIRuleSet.h */; };
-		DB448EAA1EB43B3300EA75CB /* NUIRuleSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E1A1EB43B3300EA75CB /* NUIRuleSet.m */; };
-		DB448EAB1EB43B3300EA75CB /* NUISelectorSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E1B1EB43B3300EA75CB /* NUISelectorSet.h */; };
-		DB448EAC1EB43B3300EA75CB /* NUISelectorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E1C1EB43B3300EA75CB /* NUISelectorSet.m */; };
-		DB448EAD1EB43B3300EA75CB /* NUIStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E1D1EB43B3300EA75CB /* NUIStyleSheet.h */; };
-		DB448EAE1EB43B3300EA75CB /* NUIStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E1E1EB43B3300EA75CB /* NUIStyleSheet.m */; };
-		DB448EAF1EB43B3300EA75CB /* NUIStyleSheetItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E1F1EB43B3300EA75CB /* NUIStyleSheetItem.h */; };
-		DB448EB01EB43B3300EA75CB /* NUIStyleSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E201EB43B3300EA75CB /* NUIStyleSheetItem.m */; };
-		DB448EB11EB43B3300EA75CB /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E211EB43B3300EA75CB /* NUITokeniserDelegate.h */; };
-		DB448EB21EB43B3300EA75CB /* NUITokeniserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E221EB43B3300EA75CB /* NUITokeniserDelegate.m */; };
-		DB448EB31EB43B3300EA75CB /* NUIVariableToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E231EB43B3300EA75CB /* NUIVariableToken.h */; };
-		DB448EB41EB43B3300EA75CB /* NUIVariableToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E241EB43B3300EA75CB /* NUIVariableToken.m */; };
-		DB448EB51EB43B3300EA75CB /* NUIActivityIndicatorRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E261EB43B3300EA75CB /* NUIActivityIndicatorRenderer.h */; };
-		DB448EB61EB43B3300EA75CB /* NUIActivityIndicatorRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E271EB43B3300EA75CB /* NUIActivityIndicatorRenderer.m */; };
-		DB448EB71EB43B3300EA75CB /* NUIBarButtonItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E281EB43B3300EA75CB /* NUIBarButtonItemRenderer.h */; };
-		DB448EB81EB43B3300EA75CB /* NUIBarButtonItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E291EB43B3300EA75CB /* NUIBarButtonItemRenderer.m */; };
-		DB448EB91EB43B3300EA75CB /* NUIButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E2A1EB43B3300EA75CB /* NUIButtonRenderer.h */; };
-		DB448EBA1EB43B3300EA75CB /* NUIButtonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E2B1EB43B3300EA75CB /* NUIButtonRenderer.m */; };
-		DB448EBB1EB43B3300EA75CB /* NUIControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E2C1EB43B3300EA75CB /* NUIControlRenderer.h */; };
-		DB448EBC1EB43B3300EA75CB /* NUIControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E2D1EB43B3300EA75CB /* NUIControlRenderer.m */; };
-		DB448EBD1EB43B3300EA75CB /* NUILabelRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E2E1EB43B3300EA75CB /* NUILabelRenderer.h */; };
-		DB448EBE1EB43B3300EA75CB /* NUILabelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E2F1EB43B3300EA75CB /* NUILabelRenderer.m */; };
-		DB448EBF1EB43B3300EA75CB /* NUINavigationBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E301EB43B3300EA75CB /* NUINavigationBarRenderer.h */; };
-		DB448EC01EB43B3300EA75CB /* NUINavigationBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E311EB43B3300EA75CB /* NUINavigationBarRenderer.m */; };
-		DB448EC11EB43B3300EA75CB /* NUINavigationItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E321EB43B3300EA75CB /* NUINavigationItemRenderer.h */; };
-		DB448EC21EB43B3300EA75CB /* NUINavigationItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E331EB43B3300EA75CB /* NUINavigationItemRenderer.m */; };
-		DB448EC31EB43B3300EA75CB /* NUIPageControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E341EB43B3300EA75CB /* NUIPageControlRenderer.h */; };
-		DB448EC41EB43B3300EA75CB /* NUIPageControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E351EB43B3300EA75CB /* NUIPageControlRenderer.m */; };
-		DB448EC51EB43B3300EA75CB /* NUIProgressViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E361EB43B3300EA75CB /* NUIProgressViewRenderer.h */; };
-		DB448EC61EB43B3300EA75CB /* NUIProgressViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E371EB43B3300EA75CB /* NUIProgressViewRenderer.m */; };
-		DB448EC71EB43B3300EA75CB /* NUISearchBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E381EB43B3300EA75CB /* NUISearchBarRenderer.h */; };
-		DB448EC81EB43B3300EA75CB /* NUISearchBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E391EB43B3300EA75CB /* NUISearchBarRenderer.m */; };
-		DB448EC91EB43B3300EA75CB /* NUISegmentedControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E3A1EB43B3300EA75CB /* NUISegmentedControlRenderer.h */; };
-		DB448ECA1EB43B3300EA75CB /* NUISegmentedControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E3B1EB43B3300EA75CB /* NUISegmentedControlRenderer.m */; };
-		DB448ECB1EB43B3300EA75CB /* NUISliderRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E3C1EB43B3300EA75CB /* NUISliderRenderer.h */; };
-		DB448ECC1EB43B3300EA75CB /* NUISliderRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E3D1EB43B3300EA75CB /* NUISliderRenderer.m */; };
-		DB448ECD1EB43B3300EA75CB /* NUISwitchRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E3E1EB43B3300EA75CB /* NUISwitchRenderer.h */; };
-		DB448ECE1EB43B3300EA75CB /* NUISwitchRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E3F1EB43B3300EA75CB /* NUISwitchRenderer.m */; };
-		DB448ECF1EB43B3300EA75CB /* NUITabBarItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E401EB43B3300EA75CB /* NUITabBarItemRenderer.h */; };
-		DB448ED01EB43B3300EA75CB /* NUITabBarItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E411EB43B3300EA75CB /* NUITabBarItemRenderer.m */; };
-		DB448ED11EB43B3300EA75CB /* NUITabBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E421EB43B3300EA75CB /* NUITabBarRenderer.h */; };
-		DB448ED21EB43B3300EA75CB /* NUITabBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E431EB43B3300EA75CB /* NUITabBarRenderer.m */; };
-		DB448ED31EB43B3300EA75CB /* NUITableViewCellRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E441EB43B3300EA75CB /* NUITableViewCellRenderer.h */; };
-		DB448ED41EB43B3300EA75CB /* NUITableViewCellRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E451EB43B3300EA75CB /* NUITableViewCellRenderer.m */; };
-		DB448ED51EB43B3300EA75CB /* NUITableViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E461EB43B3300EA75CB /* NUITableViewRenderer.h */; };
-		DB448ED61EB43B3300EA75CB /* NUITableViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E471EB43B3300EA75CB /* NUITableViewRenderer.m */; };
-		DB448ED71EB43B3300EA75CB /* NUITextFieldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E481EB43B3300EA75CB /* NUITextFieldRenderer.h */; };
-		DB448ED81EB43B3300EA75CB /* NUITextFieldRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E491EB43B3300EA75CB /* NUITextFieldRenderer.m */; };
-		DB448ED91EB43B3300EA75CB /* NUITextInputTraitsRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4A1EB43B3300EA75CB /* NUITextInputTraitsRenderer.h */; };
-		DB448EDA1EB43B3300EA75CB /* NUITextInputTraitsRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E4B1EB43B3300EA75CB /* NUITextInputTraitsRenderer.m */; };
-		DB448EDB1EB43B3300EA75CB /* NUITextViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4C1EB43B3300EA75CB /* NUITextViewRenderer.h */; };
-		DB448EDC1EB43B3300EA75CB /* NUITextViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E4D1EB43B3300EA75CB /* NUITextViewRenderer.m */; };
-		DB448EDD1EB43B3300EA75CB /* NUIToolbarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4E1EB43B3300EA75CB /* NUIToolbarRenderer.h */; };
-		DB448EDE1EB43B3300EA75CB /* NUIToolbarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E4F1EB43B3300EA75CB /* NUIToolbarRenderer.m */; };
-		DB448EDF1EB43B3300EA75CB /* NUIViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E501EB43B3300EA75CB /* NUIViewRenderer.h */; };
-		DB448EE01EB43B3300EA75CB /* NUIViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E511EB43B3300EA75CB /* NUIViewRenderer.m */; };
-		DB448EE11EB43B3300EA75CB /* NUIWindowRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E521EB43B3300EA75CB /* NUIWindowRenderer.h */; };
-		DB448EE21EB43B3300EA75CB /* NUIWindowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E531EB43B3300EA75CB /* NUIWindowRenderer.m */; };
-		DB448EE31EB43B3300EA75CB /* NUIStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E541EB43B3300EA75CB /* NUIStyle.nss */; };
-		DB448EE41EB43B3300EA75CB /* NUIViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DB448E561EB43B3300EA75CB /* NUIViewBackground.png */; };
-		DB448EE51EB43B3300EA75CB /* Blue.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E581EB43B3300EA75CB /* Blue.NUI.nss */; };
-		DB448EE61EB43B3300EA75CB /* Default.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E591EB43B3300EA75CB /* Default.NUI.nss */; };
-		DB448EE71EB43B3300EA75CB /* Googolplex.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5A1EB43B3300EA75CB /* Googolplex.NUI.nss */; };
-		DB448EE81EB43B3300EA75CB /* Round.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5B1EB43B3300EA75CB /* Round.NUI.nss */; };
-		DB448EE91EB43B3300EA75CB /* Route.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5C1EB43B3300EA75CB /* Route.NUI.nss */; };
-		DB448EEA1EB43B3300EA75CB /* SkyBlue.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5D1EB43B3300EA75CB /* SkyBlue.NUI.nss */; };
-		DB448EEB1EB43B3300EA75CB /* Switchboard.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5E1EB43B3300EA75CB /* Switchboard.NUI.nss */; };
-		DB448EEC1EB43B3300EA75CB /* UIActivityIndicatorView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E601EB43B3300EA75CB /* UIActivityIndicatorView+NUI.h */; };
-		DB448EED1EB43B3300EA75CB /* UIActivityIndicatorView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E611EB43B3300EA75CB /* UIActivityIndicatorView+NUI.m */; };
-		DB448EEE1EB43B3300EA75CB /* UIBarButtonItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E621EB43B3300EA75CB /* UIBarButtonItem+NUI.h */; };
-		DB448EEF1EB43B3300EA75CB /* UIBarButtonItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E631EB43B3300EA75CB /* UIBarButtonItem+NUI.m */; };
-		DB448EF01EB43B3300EA75CB /* UIButton+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E641EB43B3300EA75CB /* UIButton+NUI.h */; };
-		DB448EF11EB43B3300EA75CB /* UIButton+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E651EB43B3300EA75CB /* UIButton+NUI.m */; };
-		DB448EF21EB43B3300EA75CB /* UIControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E661EB43B3300EA75CB /* UIControl+NUI.h */; };
-		DB448EF31EB43B3300EA75CB /* UIControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E671EB43B3300EA75CB /* UIControl+NUI.m */; };
-		DB448EF41EB43B3300EA75CB /* UILabel+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E681EB43B3300EA75CB /* UILabel+NUI.h */; };
-		DB448EF51EB43B3300EA75CB /* UILabel+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E691EB43B3300EA75CB /* UILabel+NUI.m */; };
-		DB448EF61EB43B3300EA75CB /* UINavigationBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E6A1EB43B3300EA75CB /* UINavigationBar+NUI.h */; };
-		DB448EF71EB43B3300EA75CB /* UINavigationBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E6B1EB43B3300EA75CB /* UINavigationBar+NUI.m */; };
-		DB448EF81EB43B3300EA75CB /* UINavigationItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E6C1EB43B3300EA75CB /* UINavigationItem+NUI.h */; };
-		DB448EF91EB43B3300EA75CB /* UINavigationItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E6D1EB43B3300EA75CB /* UINavigationItem+NUI.m */; };
-		DB448EFA1EB43B3300EA75CB /* UIPageControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E6E1EB43B3300EA75CB /* UIPageControl+NUI.h */; };
-		DB448EFB1EB43B3300EA75CB /* UIPageControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E6F1EB43B3300EA75CB /* UIPageControl+NUI.m */; };
-		DB448EFC1EB43B3300EA75CB /* UIProgressView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E701EB43B3300EA75CB /* UIProgressView+NUI.h */; };
-		DB448EFD1EB43B3300EA75CB /* UIProgressView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E711EB43B3300EA75CB /* UIProgressView+NUI.m */; };
-		DB448EFE1EB43B3300EA75CB /* UISearchBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E721EB43B3300EA75CB /* UISearchBar+NUI.h */; };
-		DB448EFF1EB43B3300EA75CB /* UISearchBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E731EB43B3300EA75CB /* UISearchBar+NUI.m */; };
-		DB448F001EB43B3300EA75CB /* UISegmentedControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E741EB43B3300EA75CB /* UISegmentedControl+NUI.h */; };
-		DB448F011EB43B3300EA75CB /* UISegmentedControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E751EB43B3300EA75CB /* UISegmentedControl+NUI.m */; };
-		DB448F021EB43B3300EA75CB /* UISlider+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E761EB43B3300EA75CB /* UISlider+NUI.h */; };
-		DB448F031EB43B3300EA75CB /* UISlider+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E771EB43B3300EA75CB /* UISlider+NUI.m */; };
-		DB448F041EB43B3300EA75CB /* UISwitch+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E781EB43B3300EA75CB /* UISwitch+NUI.h */; };
-		DB448F051EB43B3300EA75CB /* UISwitch+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E791EB43B3300EA75CB /* UISwitch+NUI.m */; };
-		DB448F061EB43B3300EA75CB /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E7A1EB43B3300EA75CB /* UITabBar+NUI.h */; };
-		DB448F071EB43B3300EA75CB /* UITabBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E7B1EB43B3300EA75CB /* UITabBar+NUI.m */; };
-		DB448F081EB43B3300EA75CB /* UITabBarItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E7C1EB43B3300EA75CB /* UITabBarItem+NUI.h */; };
-		DB448F091EB43B3300EA75CB /* UITabBarItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E7D1EB43B3300EA75CB /* UITabBarItem+NUI.m */; };
-		DB448F0A1EB43B3300EA75CB /* UITableView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E7E1EB43B3300EA75CB /* UITableView+NUI.h */; };
-		DB448F0B1EB43B3300EA75CB /* UITableView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E7F1EB43B3300EA75CB /* UITableView+NUI.m */; };
-		DB448F0C1EB43B3300EA75CB /* UITableViewCell+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E801EB43B3300EA75CB /* UITableViewCell+NUI.h */; };
-		DB448F0D1EB43B3300EA75CB /* UITableViewCell+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E811EB43B3300EA75CB /* UITableViewCell+NUI.m */; };
-		DB448F0E1EB43B3300EA75CB /* UITextField+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E821EB43B3300EA75CB /* UITextField+NUI.h */; };
-		DB448F0F1EB43B3300EA75CB /* UITextField+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E831EB43B3300EA75CB /* UITextField+NUI.m */; };
-		DB448F101EB43B3300EA75CB /* UITextView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E841EB43B3300EA75CB /* UITextView+NUI.h */; };
-		DB448F111EB43B3300EA75CB /* UITextView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E851EB43B3300EA75CB /* UITextView+NUI.m */; };
-		DB448F121EB43B3300EA75CB /* UIToolbar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E861EB43B3300EA75CB /* UIToolbar+NUI.h */; };
-		DB448F131EB43B3300EA75CB /* UIToolbar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E871EB43B3300EA75CB /* UIToolbar+NUI.m */; };
-		DB448F141EB43B3300EA75CB /* UIView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E881EB43B3300EA75CB /* UIView+NUI.h */; };
-		DB448F151EB43B3300EA75CB /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E891EB43B3300EA75CB /* UIView+NUI.m */; };
-		DB448F161EB43B3300EA75CB /* UIWindow+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E8A1EB43B3300EA75CB /* UIWindow+NUI.h */; };
-		DB448F171EB43B3300EA75CB /* UIWindow+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E8B1EB43B3300EA75CB /* UIWindow+NUI.m */; };
+		DB448F811EB43E4000EA75CB /* UITextField+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E831EB43B3300EA75CB /* UITextField+NUI.m */; };
+		DB448F821EB43E4000EA75CB /* NUIFileMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E011EB43B3300EA75CB /* NUIFileMonitor.m */; };
+		DB448F831EB43E4000EA75CB /* UINavigationItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E6D1EB43B3300EA75CB /* UINavigationItem+NUI.m */; };
+		DB448F841EB43E4000EA75CB /* NUIGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E031EB43B3300EA75CB /* NUIGraphics.m */; };
+		DB448F851EB43E4000EA75CB /* UIPageControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E6F1EB43B3300EA75CB /* UIPageControl+NUI.m */; };
+		DB448F861EB43E4000EA75CB /* UIControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E671EB43B3300EA75CB /* UIControl+NUI.m */; };
+		DB448F871EB43E4000EA75CB /* NUIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E0D1EB43B3300EA75CB /* NUIUtilities.m */; };
+		DB448F881EB43E4000EA75CB /* NUIWindowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E531EB43B3300EA75CB /* NUIWindowRenderer.m */; };
+		DB448F891EB43E4000EA75CB /* NUISearchBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E391EB43B3300EA75CB /* NUISearchBarRenderer.m */; };
+		DB448F8A1EB43E4000EA75CB /* NUIStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E1E1EB43B3300EA75CB /* NUIStyleSheet.m */; };
+		DB448F8B1EB43E4000EA75CB /* NUITableViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E471EB43B3300EA75CB /* NUITableViewRenderer.m */; };
+		DB448F8C1EB43E4000EA75CB /* NUIStyleParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E091EB43B3300EA75CB /* NUIStyleParser.m */; };
+		DB448F8D1EB43E4000EA75CB /* NUITokeniserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E221EB43B3300EA75CB /* NUITokeniserDelegate.m */; };
+		DB448F8E1EB43E4000EA75CB /* UITableViewCell+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E811EB43B3300EA75CB /* UITableViewCell+NUI.m */; };
+		DB448F8F1EB43E4000EA75CB /* NUISelectorSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E1C1EB43B3300EA75CB /* NUISelectorSet.m */; };
+		DB448F901EB43E4000EA75CB /* NUIDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E121EB43B3300EA75CB /* NUIDefinition.m */; };
+		DB448F911EB43E4000EA75CB /* NUIToolbarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E4F1EB43B3300EA75CB /* NUIToolbarRenderer.m */; };
+		DB448F921EB43E4000EA75CB /* UILabel+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E691EB43B3300EA75CB /* UILabel+NUI.m */; };
+		DB448F931EB43E4000EA75CB /* NUIProgressViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E371EB43B3300EA75CB /* NUIProgressViewRenderer.m */; };
+		DB448F941EB43E4000EA75CB /* NUITabBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E431EB43B3300EA75CB /* NUITabBarRenderer.m */; };
+		DB448F951EB43E4000EA75CB /* NUIRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E051EB43B3300EA75CB /* NUIRenderer.m */; };
+		DB448F961EB43E4000EA75CB /* NUIButtonRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E2B1EB43B3300EA75CB /* NUIButtonRenderer.m */; };
+		DB448F971EB43E4000EA75CB /* NUIDeclaration.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E101EB43B3300EA75CB /* NUIDeclaration.m */; };
+		DB448F981EB43E4000EA75CB /* NUIStyleSheetItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E201EB43B3300EA75CB /* NUIStyleSheetItem.m */; };
+		DB448F991EB43E4000EA75CB /* NUISettings.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E071EB43B3300EA75CB /* NUISettings.m */; };
+		DB448F9A1EB43E4000EA75CB /* NUIVariableToken.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E241EB43B3300EA75CB /* NUIVariableToken.m */; };
+		DB448F9B1EB43E4000EA75CB /* UISwitch+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E791EB43B3300EA75CB /* UISwitch+NUI.m */; };
+		DB448F9C1EB43E4000EA75CB /* NUIParserDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E181EB43B3300EA75CB /* NUIParserDelegate.m */; };
+		DB448F9D1EB43E4000EA75CB /* NUITextViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E4D1EB43B3300EA75CB /* NUITextViewRenderer.m */; };
+		DB448F9E1EB43E4000EA75CB /* UIActivityIndicatorView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E611EB43B3300EA75CB /* UIActivityIndicatorView+NUI.m */; };
+		DB448F9F1EB43E4000EA75CB /* NUITextFieldRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E491EB43B3300EA75CB /* NUITextFieldRenderer.m */; };
+		DB448FA01EB43E4000EA75CB /* UIProgressView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E711EB43B3300EA75CB /* UIProgressView+NUI.m */; };
+		DB448FA11EB43E4000EA75CB /* UISearchBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E731EB43B3300EA75CB /* UISearchBar+NUI.m */; };
+		DB448FA21EB43E4000EA75CB /* UISlider+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E771EB43B3300EA75CB /* UISlider+NUI.m */; };
+		DB448FA31EB43E4000EA75CB /* NUINavigationBarRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E311EB43B3300EA75CB /* NUINavigationBarRenderer.m */; };
+		DB448FA41EB43E4000EA75CB /* NUIBarButtonItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E291EB43B3300EA75CB /* NUIBarButtonItemRenderer.m */; };
+		DB448FA51EB43E4000EA75CB /* NUILabelRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E2F1EB43B3300EA75CB /* NUILabelRenderer.m */; };
+		DB448FA61EB43E4000EA75CB /* UINavigationBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E6B1EB43B3300EA75CB /* UINavigationBar+NUI.m */; };
+		DB448FA71EB43E4000EA75CB /* NUISliderRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E3D1EB43B3300EA75CB /* NUISliderRenderer.m */; };
+		DB448FA81EB43E4000EA75CB /* UISegmentedControl+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E751EB43B3300EA75CB /* UISegmentedControl+NUI.m */; };
+		DB448FA91EB43E4000EA75CB /* UITableView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E7F1EB43B3300EA75CB /* UITableView+NUI.m */; };
+		DB448FAA1EB43E4000EA75CB /* UIBarButtonItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E631EB43B3300EA75CB /* UIBarButtonItem+NUI.m */; };
+		DB448FAB1EB43E4000EA75CB /* UIWindow+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E8B1EB43B3300EA75CB /* UIWindow+NUI.m */; };
+		DB448FAC1EB43E4000EA75CB /* NUISegmentedControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E3B1EB43B3300EA75CB /* NUISegmentedControlRenderer.m */; };
+		DB448FAD1EB43E4000EA75CB /* NUIAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448DFC1EB43B3300EA75CB /* NUIAppearance.m */; };
+		DB448FAE1EB43E4000EA75CB /* NUIActivityIndicatorRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E271EB43B3300EA75CB /* NUIActivityIndicatorRenderer.m */; };
+		DB448FAF1EB43E4000EA75CB /* UITabBar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E7B1EB43B3300EA75CB /* UITabBar+NUI.m */; };
+		DB448FB01EB43E4000EA75CB /* NUITabBarItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E411EB43B3300EA75CB /* NUITabBarItemRenderer.m */; };
+		DB448FB11EB43E4000EA75CB /* NUISwitchRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E3F1EB43B3300EA75CB /* NUISwitchRenderer.m */; };
+		DB448FB21EB43E4000EA75CB /* NUIMediaBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E141EB43B3300EA75CB /* NUIMediaBlock.m */; };
+		DB448FB31EB43E4000EA75CB /* NUIControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E2D1EB43B3300EA75CB /* NUIControlRenderer.m */; };
+		DB448FB41EB43E4000EA75CB /* NUISwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E0B1EB43B3300EA75CB /* NUISwizzler.m */; };
+		DB448FB51EB43E4000EA75CB /* NUIConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448DFF1EB43B3300EA75CB /* NUIConverter.m */; };
+		DB448FB61EB43E4000EA75CB /* NUIPageControlRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E351EB43B3300EA75CB /* NUIPageControlRenderer.m */; };
+		DB448FB71EB43E4000EA75CB /* NUINavigationItemRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E331EB43B3300EA75CB /* NUINavigationItemRenderer.m */; };
+		DB448FB81EB43E4000EA75CB /* UIToolbar+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E871EB43B3300EA75CB /* UIToolbar+NUI.m */; };
+		DB448FB91EB43E4000EA75CB /* UIView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E891EB43B3300EA75CB /* UIView+NUI.m */; };
+		DB448FBA1EB43E4000EA75CB /* UITextView+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E851EB43B3300EA75CB /* UITextView+NUI.m */; };
+		DB448FBB1EB43E4000EA75CB /* NUITextInputTraitsRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E4B1EB43B3300EA75CB /* NUITextInputTraitsRenderer.m */; };
+		DB448FBC1EB43E4000EA75CB /* NUIRuleSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E1A1EB43B3300EA75CB /* NUIRuleSet.m */; };
+		DB448FBD1EB43E4000EA75CB /* NUIMediaOptionSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E161EB43B3300EA75CB /* NUIMediaOptionSet.m */; };
+		DB448FBE1EB43E4000EA75CB /* NUIViewRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E511EB43B3300EA75CB /* NUIViewRenderer.m */; };
+		DB448FBF1EB43E4000EA75CB /* UIButton+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E651EB43B3300EA75CB /* UIButton+NUI.m */; };
+		DB448FC01EB43E4000EA75CB /* NUITableViewCellRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E451EB43B3300EA75CB /* NUITableViewCellRenderer.m */; };
+		DB448FC11EB43E4000EA75CB /* UITabBarItem+NUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DB448E7D1EB43B3300EA75CB /* UITabBarItem+NUI.m */; };
+		DB448FC51EB43E4000EA75CB /* NUITableViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E461EB43B3300EA75CB /* NUITableViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FC61EB43E4000EA75CB /* NUIDeclaration.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E0F1EB43B3300EA75CB /* NUIDeclaration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FC71EB43E4000EA75CB /* NUIPageControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E341EB43B3300EA75CB /* NUIPageControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FC81EB43E4000EA75CB /* UIBarButtonItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E621EB43B3300EA75CB /* UIBarButtonItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FC91EB43E4000EA75CB /* NUISegmentedControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E3A1EB43B3300EA75CB /* NUISegmentedControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FCA1EB43E4000EA75CB /* UIButton+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E641EB43B3300EA75CB /* UIButton+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FCB1EB43E4000EA75CB /* NUISettings.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E061EB43B3300EA75CB /* NUISettings.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FCC1EB43E4000EA75CB /* UITableView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E7E1EB43B3300EA75CB /* UITableView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FCD1EB43E4000EA75CB /* NUITabBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E421EB43B3300EA75CB /* NUITabBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FCE1EB43E4000EA75CB /* NUIStyleSheetItem.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E1F1EB43B3300EA75CB /* NUIStyleSheetItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FCF1EB43E4000EA75CB /* NUITextInputTraitsRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4A1EB43B3300EA75CB /* NUITextInputTraitsRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD01EB43E4000EA75CB /* NUITableViewCellRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E441EB43B3300EA75CB /* NUITableViewCellRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD11EB43E4000EA75CB /* UISearchBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E721EB43B3300EA75CB /* UISearchBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD21EB43E4000EA75CB /* NUITextFieldRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E481EB43B3300EA75CB /* NUITextFieldRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD31EB43E4000EA75CB /* UILabel+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E681EB43B3300EA75CB /* UILabel+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD41EB43E4000EA75CB /* NUIConverter.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DFE1EB43B3300EA75CB /* NUIConverter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD51EB43E4000EA75CB /* NUIMediaOptionSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E151EB43B3300EA75CB /* NUIMediaOptionSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD61EB43E4000EA75CB /* UISegmentedControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E741EB43B3300EA75CB /* UISegmentedControl+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD71EB43E4000EA75CB /* NUIRuleSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E191EB43B3300EA75CB /* NUIRuleSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD81EB43E4000EA75CB /* UIToolbar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E861EB43B3300EA75CB /* UIToolbar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FD91EB43E4000EA75CB /* NUIViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E501EB43B3300EA75CB /* NUIViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FDA1EB43E4000EA75CB /* NUIConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DFD1EB43B3300EA75CB /* NUIConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FDB1EB43E4000EA75CB /* NUIRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E041EB43B3300EA75CB /* NUIRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FDC1EB43E4000EA75CB /* NUINavigationBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E301EB43B3300EA75CB /* NUINavigationBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FDD1EB43E4000EA75CB /* UINavigationItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E6C1EB43B3300EA75CB /* UINavigationItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FDE1EB43E4000EA75CB /* NUILabelRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E2E1EB43B3300EA75CB /* NUILabelRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FDF1EB43E4000EA75CB /* UITabBarItem+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E7C1EB43B3300EA75CB /* UITabBarItem+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE01EB43E4000EA75CB /* NUIGraphics.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E021EB43B3300EA75CB /* NUIGraphics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE11EB43E4000EA75CB /* UITextView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E841EB43B3300EA75CB /* UITextView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE21EB43E4000EA75CB /* NUINavigationItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E321EB43B3300EA75CB /* NUINavigationItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE31EB43E4000EA75CB /* NUIUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E0C1EB43B3300EA75CB /* NUIUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE41EB43E4000EA75CB /* UITextField+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E821EB43B3300EA75CB /* UITextField+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE51EB43E4000EA75CB /* NUIWindowRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E521EB43B3300EA75CB /* NUIWindowRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE61EB43E4000EA75CB /* UITabBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E7A1EB43B3300EA75CB /* UITabBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE71EB43E4000EA75CB /* NUISelectorSet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E1B1EB43B3300EA75CB /* NUISelectorSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE81EB43E4000EA75CB /* NUIBarButtonItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E281EB43B3300EA75CB /* NUIBarButtonItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FE91EB43E4000EA75CB /* NUIDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E111EB43B3300EA75CB /* NUIDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FEA1EB43E4000EA75CB /* NUIMediaBlock.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E131EB43B3300EA75CB /* NUIMediaBlock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FEB1EB43E4000EA75CB /* NUI_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FEC1EB43E4000EA75CB /* NUIToolbarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4E1EB43B3300EA75CB /* NUIToolbarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FED1EB43E4000EA75CB /* NUIStyleParser.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E081EB43B3300EA75CB /* NUIStyleParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FEE1EB43E4000EA75CB /* NUITextViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E4C1EB43B3300EA75CB /* NUITextViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FEF1EB43E4000EA75CB /* UINavigationBar+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E6A1EB43B3300EA75CB /* UINavigationBar+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF01EB43E4000EA75CB /* NUIButtonRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E2A1EB43B3300EA75CB /* NUIButtonRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF11EB43E4000EA75CB /* UIWindow+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E8A1EB43B3300EA75CB /* UIWindow+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF21EB43E4000EA75CB /* NUISwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E0A1EB43B3300EA75CB /* NUISwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF31EB43E4000EA75CB /* UIPageControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E6E1EB43B3300EA75CB /* UIPageControl+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF41EB43E4000EA75CB /* NUITabBarItemRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E401EB43B3300EA75CB /* NUITabBarItemRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF51EB43E4000EA75CB /* NUIControlRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E2C1EB43B3300EA75CB /* NUIControlRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF61EB43E4000EA75CB /* UIView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E881EB43B3300EA75CB /* UIView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF71EB43E4000EA75CB /* NUITokeniserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E211EB43B3300EA75CB /* NUITokeniserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF81EB43E4000EA75CB /* NUIVariableToken.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E231EB43B3300EA75CB /* NUIVariableToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FF91EB43E4000EA75CB /* NUIParserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E171EB43B3300EA75CB /* NUIParserDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FFA1EB43E4000EA75CB /* UISwitch+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E781EB43B3300EA75CB /* UISwitch+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FFB1EB43E4000EA75CB /* NUISearchBarRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E381EB43B3300EA75CB /* NUISearchBarRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FFC1EB43E4000EA75CB /* NUIProgressViewRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E361EB43B3300EA75CB /* NUIProgressViewRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FFD1EB43E4000EA75CB /* UITableViewCell+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E801EB43B3300EA75CB /* UITableViewCell+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FFE1EB43E4000EA75CB /* NUISliderRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E3C1EB43B3300EA75CB /* NUISliderRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB448FFF1EB43E4000EA75CB /* UIControl+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E661EB43B3300EA75CB /* UIControl+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490001EB43E4000EA75CB /* UIProgressView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E701EB43B3300EA75CB /* UIProgressView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490011EB43E4000EA75CB /* NUIFileMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E001EB43B3300EA75CB /* NUIFileMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490021EB43E4000EA75CB /* UISlider+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E761EB43B3300EA75CB /* UISlider+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490031EB43E4000EA75CB /* NUISwitchRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E3E1EB43B3300EA75CB /* NUISwitchRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490041EB43E4000EA75CB /* NUIActivityIndicatorRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E261EB43B3300EA75CB /* NUIActivityIndicatorRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490051EB43E4000EA75CB /* UIActivityIndicatorView+NUI.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E601EB43B3300EA75CB /* UIActivityIndicatorView+NUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490061EB43E4000EA75CB /* NUIStyleSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448E1D1EB43B3300EA75CB /* NUIStyleSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490071EB43E4000EA75CB /* NUIAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DB448DFB1EB43B3300EA75CB /* NUIAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB4490091EB43E4000EA75CB /* Route.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5C1EB43B3300EA75CB /* Route.NUI.nss */; };
+		DB44900A1EB43E4000EA75CB /* Default.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E591EB43B3300EA75CB /* Default.NUI.nss */; };
+		DB44900B1EB43E4000EA75CB /* SkyBlue.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5D1EB43B3300EA75CB /* SkyBlue.NUI.nss */; };
+		DB44900C1EB43E4000EA75CB /* NUIStyle.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E541EB43B3300EA75CB /* NUIStyle.nss */; };
+		DB44900D1EB43E4000EA75CB /* Googolplex.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5A1EB43B3300EA75CB /* Googolplex.NUI.nss */; };
+		DB44900E1EB43E4000EA75CB /* NUIViewBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DB448E561EB43B3300EA75CB /* NUIViewBackground.png */; };
+		DB44900F1EB43E4000EA75CB /* Blue.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E581EB43B3300EA75CB /* Blue.NUI.nss */; };
+		DB4490101EB43E4000EA75CB /* Round.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5B1EB43B3300EA75CB /* Round.NUI.nss */; };
+		DB4490111EB43E4000EA75CB /* Switchboard.NUI.nss in Resources */ = {isa = PBXBuildFile; fileRef = DB448E5E1EB43B3300EA75CB /* Switchboard.NUI.nss */; };
+		DB4490191EB4418000EA75CB /* NUIParse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB4490181EB4418000EA75CB /* NUIParse.framework */; };
+		DB44901B1EB442A700EA75CB /* NUI_iOS.pch in Headers */ = {isa = PBXBuildFile; fileRef = DB44901A1EB442A700EA75CB /* NUI_iOS.pch */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DB448DEF1EB43B1C00EA75CB /* NUI_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUI_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NUI_iOS.h; sourceTree = "<group>"; };
 		DB448DF31EB43B1C00EA75CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB448DFB1EB43B3300EA75CB /* NUIAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUIAppearance.h; sourceTree = "<group>"; };
@@ -294,13 +295,17 @@
 		DB448E891EB43B3300EA75CB /* UIView+NUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NUI.m"; sourceTree = "<group>"; };
 		DB448E8A1EB43B3300EA75CB /* UIWindow+NUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NUI.h"; sourceTree = "<group>"; };
 		DB448E8B1EB43B3300EA75CB /* UIWindow+NUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NUI.m"; sourceTree = "<group>"; };
+		DB4490161EB43E4000EA75CB /* NUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB4490181EB4418000EA75CB /* NUIParse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NUIParse.framework; path = Carthage/Build/iOS/NUIParse.framework; sourceTree = "<group>"; };
+		DB44901A1EB442A700EA75CB /* NUI_iOS.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NUI_iOS.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB448DEB1EB43B1C00EA75CB /* Frameworks */ = {
+		DB448FC21EB43E4000EA75CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB4490191EB4418000EA75CB /* NUIParse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,13 +317,14 @@
 			children = (
 				DB448DF11EB43B1C00EA75CB /* NUI_iOS */,
 				DB448DF01EB43B1C00EA75CB /* Products */,
+				DB448F181EB43C5B00EA75CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DB448DF01EB43B1C00EA75CB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB448DEF1EB43B1C00EA75CB /* NUI_iOS.framework */,
+				DB4490161EB43E4000EA75CB /* NUI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 				DB448E5F1EB43B3300EA75CB /* UI */,
 				DB448DF21EB43B1C00EA75CB /* NUI_iOS.h */,
 				DB448DF31EB43B1C00EA75CB /* Info.plist */,
+				DB44901A1EB442A700EA75CB /* NUI_iOS.pch */,
 			);
 			path = NUI_iOS;
 			sourceTree = "<group>";
@@ -524,102 +531,112 @@
 			path = ../../NUI/UI;
 			sourceTree = "<group>";
 		};
+		DB448F181EB43C5B00EA75CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB4490181EB4418000EA75CB /* NUIParse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DB448DEC1EB43B1C00EA75CB /* Headers */ = {
+		DB448FC41EB43E4000EA75CB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB448ED51EB43B3300EA75CB /* NUITableViewRenderer.h in Headers */,
-				DB448E9F1EB43B3300EA75CB /* NUIDeclaration.h in Headers */,
-				DB448EC31EB43B3300EA75CB /* NUIPageControlRenderer.h in Headers */,
-				DB448EEE1EB43B3300EA75CB /* UIBarButtonItem+NUI.h in Headers */,
-				DB448EC91EB43B3300EA75CB /* NUISegmentedControlRenderer.h in Headers */,
-				DB448EF01EB43B3300EA75CB /* UIButton+NUI.h in Headers */,
-				DB448E971EB43B3300EA75CB /* NUISettings.h in Headers */,
-				DB448F0A1EB43B3300EA75CB /* UITableView+NUI.h in Headers */,
-				DB448ED11EB43B3300EA75CB /* NUITabBarRenderer.h in Headers */,
-				DB448EAF1EB43B3300EA75CB /* NUIStyleSheetItem.h in Headers */,
-				DB448ED91EB43B3300EA75CB /* NUITextInputTraitsRenderer.h in Headers */,
-				DB448ED31EB43B3300EA75CB /* NUITableViewCellRenderer.h in Headers */,
-				DB448EFE1EB43B3300EA75CB /* UISearchBar+NUI.h in Headers */,
-				DB448ED71EB43B3300EA75CB /* NUITextFieldRenderer.h in Headers */,
-				DB448EF41EB43B3300EA75CB /* UILabel+NUI.h in Headers */,
-				DB448E8F1EB43B3300EA75CB /* NUIConverter.h in Headers */,
-				DB448EA51EB43B3300EA75CB /* NUIMediaOptionSet.h in Headers */,
-				DB448F001EB43B3300EA75CB /* UISegmentedControl+NUI.h in Headers */,
-				DB448EA91EB43B3300EA75CB /* NUIRuleSet.h in Headers */,
-				DB448F121EB43B3300EA75CB /* UIToolbar+NUI.h in Headers */,
-				DB448EDF1EB43B3300EA75CB /* NUIViewRenderer.h in Headers */,
-				DB448E8E1EB43B3300EA75CB /* NUIConstants.h in Headers */,
-				DB448E951EB43B3300EA75CB /* NUIRenderer.h in Headers */,
-				DB448EBF1EB43B3300EA75CB /* NUINavigationBarRenderer.h in Headers */,
-				DB448EF81EB43B3300EA75CB /* UINavigationItem+NUI.h in Headers */,
-				DB448EBD1EB43B3300EA75CB /* NUILabelRenderer.h in Headers */,
-				DB448F081EB43B3300EA75CB /* UITabBarItem+NUI.h in Headers */,
-				DB448E931EB43B3300EA75CB /* NUIGraphics.h in Headers */,
-				DB448F101EB43B3300EA75CB /* UITextView+NUI.h in Headers */,
-				DB448EC11EB43B3300EA75CB /* NUINavigationItemRenderer.h in Headers */,
-				DB448E9D1EB43B3300EA75CB /* NUIUtilities.h in Headers */,
-				DB448F0E1EB43B3300EA75CB /* UITextField+NUI.h in Headers */,
-				DB448EE11EB43B3300EA75CB /* NUIWindowRenderer.h in Headers */,
-				DB448F061EB43B3300EA75CB /* UITabBar+NUI.h in Headers */,
-				DB448EAB1EB43B3300EA75CB /* NUISelectorSet.h in Headers */,
-				DB448EB71EB43B3300EA75CB /* NUIBarButtonItemRenderer.h in Headers */,
-				DB448EA11EB43B3300EA75CB /* NUIDefinition.h in Headers */,
-				DB448EA31EB43B3300EA75CB /* NUIMediaBlock.h in Headers */,
-				DB448DF41EB43B1C00EA75CB /* NUI_iOS.h in Headers */,
-				DB448EDD1EB43B3300EA75CB /* NUIToolbarRenderer.h in Headers */,
-				DB448E991EB43B3300EA75CB /* NUIStyleParser.h in Headers */,
-				DB448EDB1EB43B3300EA75CB /* NUITextViewRenderer.h in Headers */,
-				DB448EF61EB43B3300EA75CB /* UINavigationBar+NUI.h in Headers */,
-				DB448EB91EB43B3300EA75CB /* NUIButtonRenderer.h in Headers */,
-				DB448F161EB43B3300EA75CB /* UIWindow+NUI.h in Headers */,
-				DB448E9B1EB43B3300EA75CB /* NUISwizzler.h in Headers */,
-				DB448EFA1EB43B3300EA75CB /* UIPageControl+NUI.h in Headers */,
-				DB448ECF1EB43B3300EA75CB /* NUITabBarItemRenderer.h in Headers */,
-				DB448EBB1EB43B3300EA75CB /* NUIControlRenderer.h in Headers */,
-				DB448F141EB43B3300EA75CB /* UIView+NUI.h in Headers */,
-				DB448EB11EB43B3300EA75CB /* NUITokeniserDelegate.h in Headers */,
-				DB448EB31EB43B3300EA75CB /* NUIVariableToken.h in Headers */,
-				DB448EA71EB43B3300EA75CB /* NUIParserDelegate.h in Headers */,
-				DB448F041EB43B3300EA75CB /* UISwitch+NUI.h in Headers */,
-				DB448EC71EB43B3300EA75CB /* NUISearchBarRenderer.h in Headers */,
-				DB448EC51EB43B3300EA75CB /* NUIProgressViewRenderer.h in Headers */,
-				DB448F0C1EB43B3300EA75CB /* UITableViewCell+NUI.h in Headers */,
-				DB448ECB1EB43B3300EA75CB /* NUISliderRenderer.h in Headers */,
-				DB448EF21EB43B3300EA75CB /* UIControl+NUI.h in Headers */,
-				DB448EFC1EB43B3300EA75CB /* UIProgressView+NUI.h in Headers */,
-				DB448E911EB43B3300EA75CB /* NUIFileMonitor.h in Headers */,
-				DB448F021EB43B3300EA75CB /* UISlider+NUI.h in Headers */,
-				DB448ECD1EB43B3300EA75CB /* NUISwitchRenderer.h in Headers */,
-				DB448EB51EB43B3300EA75CB /* NUIActivityIndicatorRenderer.h in Headers */,
-				DB448EEC1EB43B3300EA75CB /* UIActivityIndicatorView+NUI.h in Headers */,
-				DB448EAD1EB43B3300EA75CB /* NUIStyleSheet.h in Headers */,
-				DB448E8C1EB43B3300EA75CB /* NUIAppearance.h in Headers */,
+				DB448FC51EB43E4000EA75CB /* NUITableViewRenderer.h in Headers */,
+				DB448FC61EB43E4000EA75CB /* NUIDeclaration.h in Headers */,
+				DB448FC71EB43E4000EA75CB /* NUIPageControlRenderer.h in Headers */,
+				DB448FC81EB43E4000EA75CB /* UIBarButtonItem+NUI.h in Headers */,
+				DB448FC91EB43E4000EA75CB /* NUISegmentedControlRenderer.h in Headers */,
+				DB448FCA1EB43E4000EA75CB /* UIButton+NUI.h in Headers */,
+				DB448FCB1EB43E4000EA75CB /* NUISettings.h in Headers */,
+				DB448FCC1EB43E4000EA75CB /* UITableView+NUI.h in Headers */,
+				DB448FCD1EB43E4000EA75CB /* NUITabBarRenderer.h in Headers */,
+				DB448FCE1EB43E4000EA75CB /* NUIStyleSheetItem.h in Headers */,
+				DB448FCF1EB43E4000EA75CB /* NUITextInputTraitsRenderer.h in Headers */,
+				DB448FD01EB43E4000EA75CB /* NUITableViewCellRenderer.h in Headers */,
+				DB448FD11EB43E4000EA75CB /* UISearchBar+NUI.h in Headers */,
+				DB448FD21EB43E4000EA75CB /* NUITextFieldRenderer.h in Headers */,
+				DB448FD31EB43E4000EA75CB /* UILabel+NUI.h in Headers */,
+				DB448FD41EB43E4000EA75CB /* NUIConverter.h in Headers */,
+				DB448FD51EB43E4000EA75CB /* NUIMediaOptionSet.h in Headers */,
+				DB448FD61EB43E4000EA75CB /* UISegmentedControl+NUI.h in Headers */,
+				DB448FD71EB43E4000EA75CB /* NUIRuleSet.h in Headers */,
+				DB448FD81EB43E4000EA75CB /* UIToolbar+NUI.h in Headers */,
+				DB448FD91EB43E4000EA75CB /* NUIViewRenderer.h in Headers */,
+				DB448FDA1EB43E4000EA75CB /* NUIConstants.h in Headers */,
+				DB448FDB1EB43E4000EA75CB /* NUIRenderer.h in Headers */,
+				DB448FDC1EB43E4000EA75CB /* NUINavigationBarRenderer.h in Headers */,
+				DB448FDD1EB43E4000EA75CB /* UINavigationItem+NUI.h in Headers */,
+				DB448FDE1EB43E4000EA75CB /* NUILabelRenderer.h in Headers */,
+				DB448FDF1EB43E4000EA75CB /* UITabBarItem+NUI.h in Headers */,
+				DB448FE01EB43E4000EA75CB /* NUIGraphics.h in Headers */,
+				DB448FE11EB43E4000EA75CB /* UITextView+NUI.h in Headers */,
+				DB448FE21EB43E4000EA75CB /* NUINavigationItemRenderer.h in Headers */,
+				DB448FE31EB43E4000EA75CB /* NUIUtilities.h in Headers */,
+				DB448FE41EB43E4000EA75CB /* UITextField+NUI.h in Headers */,
+				DB448FE51EB43E4000EA75CB /* NUIWindowRenderer.h in Headers */,
+				DB448FE61EB43E4000EA75CB /* UITabBar+NUI.h in Headers */,
+				DB448FE71EB43E4000EA75CB /* NUISelectorSet.h in Headers */,
+				DB448FE81EB43E4000EA75CB /* NUIBarButtonItemRenderer.h in Headers */,
+				DB448FE91EB43E4000EA75CB /* NUIDefinition.h in Headers */,
+				DB448FEA1EB43E4000EA75CB /* NUIMediaBlock.h in Headers */,
+				DB448FEB1EB43E4000EA75CB /* NUI_iOS.h in Headers */,
+				DB448FEC1EB43E4000EA75CB /* NUIToolbarRenderer.h in Headers */,
+				DB448FED1EB43E4000EA75CB /* NUIStyleParser.h in Headers */,
+				DB448FEE1EB43E4000EA75CB /* NUITextViewRenderer.h in Headers */,
+				DB448FEF1EB43E4000EA75CB /* UINavigationBar+NUI.h in Headers */,
+				DB448FF01EB43E4000EA75CB /* NUIButtonRenderer.h in Headers */,
+				DB448FF11EB43E4000EA75CB /* UIWindow+NUI.h in Headers */,
+				DB448FF21EB43E4000EA75CB /* NUISwizzler.h in Headers */,
+				DB448FF31EB43E4000EA75CB /* UIPageControl+NUI.h in Headers */,
+				DB448FF41EB43E4000EA75CB /* NUITabBarItemRenderer.h in Headers */,
+				DB448FF51EB43E4000EA75CB /* NUIControlRenderer.h in Headers */,
+				DB448FF61EB43E4000EA75CB /* UIView+NUI.h in Headers */,
+				DB44901B1EB442A700EA75CB /* NUI_iOS.pch in Headers */,
+				DB448FF71EB43E4000EA75CB /* NUITokeniserDelegate.h in Headers */,
+				DB448FF81EB43E4000EA75CB /* NUIVariableToken.h in Headers */,
+				DB448FF91EB43E4000EA75CB /* NUIParserDelegate.h in Headers */,
+				DB448FFA1EB43E4000EA75CB /* UISwitch+NUI.h in Headers */,
+				DB448FFB1EB43E4000EA75CB /* NUISearchBarRenderer.h in Headers */,
+				DB448FFC1EB43E4000EA75CB /* NUIProgressViewRenderer.h in Headers */,
+				DB448FFD1EB43E4000EA75CB /* UITableViewCell+NUI.h in Headers */,
+				DB448FFE1EB43E4000EA75CB /* NUISliderRenderer.h in Headers */,
+				DB448FFF1EB43E4000EA75CB /* UIControl+NUI.h in Headers */,
+				DB4490001EB43E4000EA75CB /* UIProgressView+NUI.h in Headers */,
+				DB4490011EB43E4000EA75CB /* NUIFileMonitor.h in Headers */,
+				DB4490021EB43E4000EA75CB /* UISlider+NUI.h in Headers */,
+				DB4490031EB43E4000EA75CB /* NUISwitchRenderer.h in Headers */,
+				DB4490041EB43E4000EA75CB /* NUIActivityIndicatorRenderer.h in Headers */,
+				DB4490051EB43E4000EA75CB /* UIActivityIndicatorView+NUI.h in Headers */,
+				DB4490061EB43E4000EA75CB /* NUIStyleSheet.h in Headers */,
+				DB4490071EB43E4000EA75CB /* NUIAppearance.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		DB448DEE1EB43B1C00EA75CB /* NUI_iOS */ = {
+		DB448F7F1EB43E4000EA75CB /* NUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB448DF71EB43B1C00EA75CB /* Build configuration list for PBXNativeTarget "NUI_iOS" */;
+			buildConfigurationList = DB4490131EB43E4000EA75CB /* Build configuration list for PBXNativeTarget "NUI" */;
 			buildPhases = (
-				DB448DEA1EB43B1C00EA75CB /* Sources */,
-				DB448DEB1EB43B1C00EA75CB /* Frameworks */,
-				DB448DEC1EB43B1C00EA75CB /* Headers */,
-				DB448DED1EB43B1C00EA75CB /* Resources */,
+				DB448F801EB43E4000EA75CB /* Sources */,
+				DB448FC21EB43E4000EA75CB /* Frameworks */,
+				DB448FC41EB43E4000EA75CB /* Headers */,
+				DB4490081EB43E4000EA75CB /* Resources */,
+				DB4490121EB43E4000EA75CB /* Carthage Script */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NUI_iOS;
+			name = NUI;
 			productName = NUI_iOS;
-			productReference = DB448DEF1EB43B1C00EA75CB /* NUI_iOS.framework */;
+			productReference = DB4490161EB43E4000EA75CB /* NUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -631,10 +648,8 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = ChaiOne;
 				TargetAttributes = {
-					DB448DEE1EB43B1C00EA75CB = {
-						CreatedOnToolsVersion = 8.3.2;
+					DB448F7F1EB43E4000EA75CB = {
 						DevelopmentTeam = K83DSSAEPP;
-						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -650,100 +665,118 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB448DEE1EB43B1C00EA75CB /* NUI_iOS */,
+				DB448F7F1EB43E4000EA75CB /* NUI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB448DED1EB43B1C00EA75CB /* Resources */ = {
+		DB4490081EB43E4000EA75CB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB448EE91EB43B3300EA75CB /* Route.NUI.nss in Resources */,
-				DB448EE61EB43B3300EA75CB /* Default.NUI.nss in Resources */,
-				DB448EEA1EB43B3300EA75CB /* SkyBlue.NUI.nss in Resources */,
-				DB448EE31EB43B3300EA75CB /* NUIStyle.nss in Resources */,
-				DB448EE71EB43B3300EA75CB /* Googolplex.NUI.nss in Resources */,
-				DB448EE41EB43B3300EA75CB /* NUIViewBackground.png in Resources */,
-				DB448EE51EB43B3300EA75CB /* Blue.NUI.nss in Resources */,
-				DB448EE81EB43B3300EA75CB /* Round.NUI.nss in Resources */,
-				DB448EEB1EB43B3300EA75CB /* Switchboard.NUI.nss in Resources */,
+				DB4490091EB43E4000EA75CB /* Route.NUI.nss in Resources */,
+				DB44900A1EB43E4000EA75CB /* Default.NUI.nss in Resources */,
+				DB44900B1EB43E4000EA75CB /* SkyBlue.NUI.nss in Resources */,
+				DB44900C1EB43E4000EA75CB /* NUIStyle.nss in Resources */,
+				DB44900D1EB43E4000EA75CB /* Googolplex.NUI.nss in Resources */,
+				DB44900E1EB43E4000EA75CB /* NUIViewBackground.png in Resources */,
+				DB44900F1EB43E4000EA75CB /* Blue.NUI.nss in Resources */,
+				DB4490101EB43E4000EA75CB /* Round.NUI.nss in Resources */,
+				DB4490111EB43E4000EA75CB /* Switchboard.NUI.nss in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DB4490121EB43E4000EA75CB /* Carthage Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/NUIParse.framework",
+			);
+			name = "Carthage Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		DB448DEA1EB43B1C00EA75CB /* Sources */ = {
+		DB448F801EB43E4000EA75CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB448F0F1EB43B3300EA75CB /* UITextField+NUI.m in Sources */,
-				DB448E921EB43B3300EA75CB /* NUIFileMonitor.m in Sources */,
-				DB448EF91EB43B3300EA75CB /* UINavigationItem+NUI.m in Sources */,
-				DB448E941EB43B3300EA75CB /* NUIGraphics.m in Sources */,
-				DB448EFB1EB43B3300EA75CB /* UIPageControl+NUI.m in Sources */,
-				DB448EF31EB43B3300EA75CB /* UIControl+NUI.m in Sources */,
-				DB448E9E1EB43B3300EA75CB /* NUIUtilities.m in Sources */,
-				DB448EE21EB43B3300EA75CB /* NUIWindowRenderer.m in Sources */,
-				DB448EC81EB43B3300EA75CB /* NUISearchBarRenderer.m in Sources */,
-				DB448EAE1EB43B3300EA75CB /* NUIStyleSheet.m in Sources */,
-				DB448ED61EB43B3300EA75CB /* NUITableViewRenderer.m in Sources */,
-				DB448E9A1EB43B3300EA75CB /* NUIStyleParser.m in Sources */,
-				DB448EB21EB43B3300EA75CB /* NUITokeniserDelegate.m in Sources */,
-				DB448F0D1EB43B3300EA75CB /* UITableViewCell+NUI.m in Sources */,
-				DB448EAC1EB43B3300EA75CB /* NUISelectorSet.m in Sources */,
-				DB448EA21EB43B3300EA75CB /* NUIDefinition.m in Sources */,
-				DB448EDE1EB43B3300EA75CB /* NUIToolbarRenderer.m in Sources */,
-				DB448EF51EB43B3300EA75CB /* UILabel+NUI.m in Sources */,
-				DB448EC61EB43B3300EA75CB /* NUIProgressViewRenderer.m in Sources */,
-				DB448ED21EB43B3300EA75CB /* NUITabBarRenderer.m in Sources */,
-				DB448E961EB43B3300EA75CB /* NUIRenderer.m in Sources */,
-				DB448EBA1EB43B3300EA75CB /* NUIButtonRenderer.m in Sources */,
-				DB448EA01EB43B3300EA75CB /* NUIDeclaration.m in Sources */,
-				DB448EB01EB43B3300EA75CB /* NUIStyleSheetItem.m in Sources */,
-				DB448E981EB43B3300EA75CB /* NUISettings.m in Sources */,
-				DB448EB41EB43B3300EA75CB /* NUIVariableToken.m in Sources */,
-				DB448F051EB43B3300EA75CB /* UISwitch+NUI.m in Sources */,
-				DB448EA81EB43B3300EA75CB /* NUIParserDelegate.m in Sources */,
-				DB448EDC1EB43B3300EA75CB /* NUITextViewRenderer.m in Sources */,
-				DB448EED1EB43B3300EA75CB /* UIActivityIndicatorView+NUI.m in Sources */,
-				DB448ED81EB43B3300EA75CB /* NUITextFieldRenderer.m in Sources */,
-				DB448EFD1EB43B3300EA75CB /* UIProgressView+NUI.m in Sources */,
-				DB448EFF1EB43B3300EA75CB /* UISearchBar+NUI.m in Sources */,
-				DB448F031EB43B3300EA75CB /* UISlider+NUI.m in Sources */,
-				DB448EC01EB43B3300EA75CB /* NUINavigationBarRenderer.m in Sources */,
-				DB448EB81EB43B3300EA75CB /* NUIBarButtonItemRenderer.m in Sources */,
-				DB448EBE1EB43B3300EA75CB /* NUILabelRenderer.m in Sources */,
-				DB448EF71EB43B3300EA75CB /* UINavigationBar+NUI.m in Sources */,
-				DB448ECC1EB43B3300EA75CB /* NUISliderRenderer.m in Sources */,
-				DB448F011EB43B3300EA75CB /* UISegmentedControl+NUI.m in Sources */,
-				DB448F0B1EB43B3300EA75CB /* UITableView+NUI.m in Sources */,
-				DB448EEF1EB43B3300EA75CB /* UIBarButtonItem+NUI.m in Sources */,
-				DB448F171EB43B3300EA75CB /* UIWindow+NUI.m in Sources */,
-				DB448ECA1EB43B3300EA75CB /* NUISegmentedControlRenderer.m in Sources */,
-				DB448E8D1EB43B3300EA75CB /* NUIAppearance.m in Sources */,
-				DB448EB61EB43B3300EA75CB /* NUIActivityIndicatorRenderer.m in Sources */,
-				DB448F071EB43B3300EA75CB /* UITabBar+NUI.m in Sources */,
-				DB448ED01EB43B3300EA75CB /* NUITabBarItemRenderer.m in Sources */,
-				DB448ECE1EB43B3300EA75CB /* NUISwitchRenderer.m in Sources */,
-				DB448EA41EB43B3300EA75CB /* NUIMediaBlock.m in Sources */,
-				DB448EBC1EB43B3300EA75CB /* NUIControlRenderer.m in Sources */,
-				DB448E9C1EB43B3300EA75CB /* NUISwizzler.m in Sources */,
-				DB448E901EB43B3300EA75CB /* NUIConverter.m in Sources */,
-				DB448EC41EB43B3300EA75CB /* NUIPageControlRenderer.m in Sources */,
-				DB448EC21EB43B3300EA75CB /* NUINavigationItemRenderer.m in Sources */,
-				DB448F131EB43B3300EA75CB /* UIToolbar+NUI.m in Sources */,
-				DB448F151EB43B3300EA75CB /* UIView+NUI.m in Sources */,
-				DB448F111EB43B3300EA75CB /* UITextView+NUI.m in Sources */,
-				DB448EDA1EB43B3300EA75CB /* NUITextInputTraitsRenderer.m in Sources */,
-				DB448EAA1EB43B3300EA75CB /* NUIRuleSet.m in Sources */,
-				DB448EA61EB43B3300EA75CB /* NUIMediaOptionSet.m in Sources */,
-				DB448EE01EB43B3300EA75CB /* NUIViewRenderer.m in Sources */,
-				DB448EF11EB43B3300EA75CB /* UIButton+NUI.m in Sources */,
-				DB448ED41EB43B3300EA75CB /* NUITableViewCellRenderer.m in Sources */,
-				DB448F091EB43B3300EA75CB /* UITabBarItem+NUI.m in Sources */,
+				DB448F811EB43E4000EA75CB /* UITextField+NUI.m in Sources */,
+				DB448F821EB43E4000EA75CB /* NUIFileMonitor.m in Sources */,
+				DB448F831EB43E4000EA75CB /* UINavigationItem+NUI.m in Sources */,
+				DB448F841EB43E4000EA75CB /* NUIGraphics.m in Sources */,
+				DB448F851EB43E4000EA75CB /* UIPageControl+NUI.m in Sources */,
+				DB448F861EB43E4000EA75CB /* UIControl+NUI.m in Sources */,
+				DB448F871EB43E4000EA75CB /* NUIUtilities.m in Sources */,
+				DB448F881EB43E4000EA75CB /* NUIWindowRenderer.m in Sources */,
+				DB448F891EB43E4000EA75CB /* NUISearchBarRenderer.m in Sources */,
+				DB448F8A1EB43E4000EA75CB /* NUIStyleSheet.m in Sources */,
+				DB448F8B1EB43E4000EA75CB /* NUITableViewRenderer.m in Sources */,
+				DB448F8C1EB43E4000EA75CB /* NUIStyleParser.m in Sources */,
+				DB448F8D1EB43E4000EA75CB /* NUITokeniserDelegate.m in Sources */,
+				DB448F8E1EB43E4000EA75CB /* UITableViewCell+NUI.m in Sources */,
+				DB448F8F1EB43E4000EA75CB /* NUISelectorSet.m in Sources */,
+				DB448F901EB43E4000EA75CB /* NUIDefinition.m in Sources */,
+				DB448F911EB43E4000EA75CB /* NUIToolbarRenderer.m in Sources */,
+				DB448F921EB43E4000EA75CB /* UILabel+NUI.m in Sources */,
+				DB448F931EB43E4000EA75CB /* NUIProgressViewRenderer.m in Sources */,
+				DB448F941EB43E4000EA75CB /* NUITabBarRenderer.m in Sources */,
+				DB448F951EB43E4000EA75CB /* NUIRenderer.m in Sources */,
+				DB448F961EB43E4000EA75CB /* NUIButtonRenderer.m in Sources */,
+				DB448F971EB43E4000EA75CB /* NUIDeclaration.m in Sources */,
+				DB448F981EB43E4000EA75CB /* NUIStyleSheetItem.m in Sources */,
+				DB448F991EB43E4000EA75CB /* NUISettings.m in Sources */,
+				DB448F9A1EB43E4000EA75CB /* NUIVariableToken.m in Sources */,
+				DB448F9B1EB43E4000EA75CB /* UISwitch+NUI.m in Sources */,
+				DB448F9C1EB43E4000EA75CB /* NUIParserDelegate.m in Sources */,
+				DB448F9D1EB43E4000EA75CB /* NUITextViewRenderer.m in Sources */,
+				DB448F9E1EB43E4000EA75CB /* UIActivityIndicatorView+NUI.m in Sources */,
+				DB448F9F1EB43E4000EA75CB /* NUITextFieldRenderer.m in Sources */,
+				DB448FA01EB43E4000EA75CB /* UIProgressView+NUI.m in Sources */,
+				DB448FA11EB43E4000EA75CB /* UISearchBar+NUI.m in Sources */,
+				DB448FA21EB43E4000EA75CB /* UISlider+NUI.m in Sources */,
+				DB448FA31EB43E4000EA75CB /* NUINavigationBarRenderer.m in Sources */,
+				DB448FA41EB43E4000EA75CB /* NUIBarButtonItemRenderer.m in Sources */,
+				DB448FA51EB43E4000EA75CB /* NUILabelRenderer.m in Sources */,
+				DB448FA61EB43E4000EA75CB /* UINavigationBar+NUI.m in Sources */,
+				DB448FA71EB43E4000EA75CB /* NUISliderRenderer.m in Sources */,
+				DB448FA81EB43E4000EA75CB /* UISegmentedControl+NUI.m in Sources */,
+				DB448FA91EB43E4000EA75CB /* UITableView+NUI.m in Sources */,
+				DB448FAA1EB43E4000EA75CB /* UIBarButtonItem+NUI.m in Sources */,
+				DB448FAB1EB43E4000EA75CB /* UIWindow+NUI.m in Sources */,
+				DB448FAC1EB43E4000EA75CB /* NUISegmentedControlRenderer.m in Sources */,
+				DB448FAD1EB43E4000EA75CB /* NUIAppearance.m in Sources */,
+				DB448FAE1EB43E4000EA75CB /* NUIActivityIndicatorRenderer.m in Sources */,
+				DB448FAF1EB43E4000EA75CB /* UITabBar+NUI.m in Sources */,
+				DB448FB01EB43E4000EA75CB /* NUITabBarItemRenderer.m in Sources */,
+				DB448FB11EB43E4000EA75CB /* NUISwitchRenderer.m in Sources */,
+				DB448FB21EB43E4000EA75CB /* NUIMediaBlock.m in Sources */,
+				DB448FB31EB43E4000EA75CB /* NUIControlRenderer.m in Sources */,
+				DB448FB41EB43E4000EA75CB /* NUISwizzler.m in Sources */,
+				DB448FB51EB43E4000EA75CB /* NUIConverter.m in Sources */,
+				DB448FB61EB43E4000EA75CB /* NUIPageControlRenderer.m in Sources */,
+				DB448FB71EB43E4000EA75CB /* NUINavigationItemRenderer.m in Sources */,
+				DB448FB81EB43E4000EA75CB /* UIToolbar+NUI.m in Sources */,
+				DB448FB91EB43E4000EA75CB /* UIView+NUI.m in Sources */,
+				DB448FBA1EB43E4000EA75CB /* UITextView+NUI.m in Sources */,
+				DB448FBB1EB43E4000EA75CB /* NUITextInputTraitsRenderer.m in Sources */,
+				DB448FBC1EB43E4000EA75CB /* NUIRuleSet.m in Sources */,
+				DB448FBD1EB43E4000EA75CB /* NUIMediaOptionSet.m in Sources */,
+				DB448FBE1EB43E4000EA75CB /* NUIViewRenderer.m in Sources */,
+				DB448FBF1EB43E4000EA75CB /* UIButton+NUI.m in Sources */,
+				DB448FC01EB43E4000EA75CB /* NUITableViewCellRenderer.m in Sources */,
+				DB448FC11EB43E4000EA75CB /* UITabBarItem+NUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,7 +881,7 @@
 			};
 			name = Release;
 		};
-		DB448DF81EB43B1C00EA75CB /* Debug */ = {
+		DB4490141EB43E4000EA75CB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -857,8 +890,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NUI_iOS/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NUI_iOS/NUI_iOS.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/NUIParse.framework/Headers";
+				INFOPLIST_FILE = "$(SRCROOT)/NUI_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chaione.NUI-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -866,7 +907,7 @@
 			};
 			name = Debug;
 		};
-		DB448DF91EB43B1C00EA75CB /* Release */ = {
+		DB4490151EB43E4000EA75CB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -875,8 +916,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = NUI_iOS/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NUI_iOS/NUI_iOS.pch";
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/NUIParse.framework/Headers";
+				INFOPLIST_FILE = "$(SRCROOT)/NUI_iOS/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chaione.NUI-iOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -896,13 +945,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB448DF71EB43B1C00EA75CB /* Build configuration list for PBXNativeTarget "NUI_iOS" */ = {
+		DB4490131EB43E4000EA75CB /* Build configuration list for PBXNativeTarget "NUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB448DF81EB43B1C00EA75CB /* Debug */,
-				DB448DF91EB43B1C00EA75CB /* Release */,
+				DB4490141EB43E4000EA75CB /* Debug */,
+				DB4490151EB43E4000EA75CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

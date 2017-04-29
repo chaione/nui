@@ -1,0 +1,15 @@
+//
+//  NUI_iOS.pch
+//  NUI_iOS
+//
+//  Created by Yuichi Fujiki on 4/28/17.
+//  Copyright © 2017 ChaiOne. All rights reserved.
+//
+
+#ifndef NUI_iOS_h
+#define NUI_iOS_h
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+#endif /* NUI_iOS_h */

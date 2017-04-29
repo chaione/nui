@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DB448DEE1EB43B1C00EA75CB"
-               BuildableName = "NUI_iOS.framework"
-               BlueprintName = "NUI_iOS"
+               BlueprintIdentifier = "DB448F7F1EB43E4000EA75CB"
+               BuildableName = "NUI.framework"
+               BlueprintName = "NUI"
                ReferencedContainer = "container:NUI_iOS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB448DEE1EB43B1C00EA75CB"
-            BuildableName = "NUI_iOS.framework"
-            BlueprintName = "NUI_iOS"
+            BlueprintIdentifier = "DB448F7F1EB43E4000EA75CB"
+            BuildableName = "NUI.framework"
+            BlueprintName = "NUI"
             ReferencedContainer = "container:NUI_iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DB448DEE1EB43B1C00EA75CB"
-            BuildableName = "NUI_iOS.framework"
-            BlueprintName = "NUI_iOS"
+            BlueprintIdentifier = "DB448F7F1EB43E4000EA75CB"
+            BuildableName = "NUI.framework"
+            BlueprintName = "NUI"
             ReferencedContainer = "container:NUI_iOS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
